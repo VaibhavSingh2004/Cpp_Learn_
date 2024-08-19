@@ -26,9 +26,9 @@ class Student : private person{
         using person::city;
         using person::setAge;
         using person::setCity;
-        using person :: setName;
+        using person::setName;
 
-        int studentId;
+        int studentId;.
         void setId(int iID){studentId=iID;}
         void introduce(){
             // WE CAN ACCESS ALL THE PROPERTIES OF BASE CLASS INSIDE CHILD CLASS 
