@@ -22,7 +22,7 @@ void Person :: introduce(){
 class Student :public Person{
     public:
     // WE HAVE TO OVERIDE THE INTRODUCE FUNCTION OTHERWISE THE CODE THROWS AN ERROR FOR NOT OVERRIDING THE PURE VIRTUAL FUNCION
-    void introduce(){
+    void introduce() override{
         cout<<"hi from the child class student"<<endl;
         Person::introduce();
     }
