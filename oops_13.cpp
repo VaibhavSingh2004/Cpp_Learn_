@@ -31,8 +31,10 @@ whoIsThis(Person &p){
     p.introduce();
 };
 
-int main(){
-    Student st;
-    whoIsThis(st);
-    return 0;
-}
+// commented this main function because in ppd.cpp i am learning preprocessor directives and while learning the preprocessor directives i included this oops_13.cpp there 
+
+// int main(){
+//     Student st;
+//     whoIsThis(st);
+//     return 0;
+// }
